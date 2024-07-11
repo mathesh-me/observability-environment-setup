@@ -1,0 +1,6 @@
+basic_auth_users:
+  username: "bcrypt_password"
+
+tls_server_config:
+  cert_file: "public.crt" # You need to define the correct path where your certificate is.
+  key_file: "private.key" # You need to define the correct path where your key is.
